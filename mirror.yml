@@ -1,0 +1,22 @@
+mirrorRepos:
+  daocloud: https://release.daocloud.io/chartrepo/daocloud
+  daocloud-system: https://release.daocloud.io/chartrepo/daocloud-system
+  partner: https://release.daocloud.io/chartrepo/partner
+  community: https://release.daocloud.io/chartrepo/community
+mirrors:
+  daocloud: # The Repo mirror to
+    ingress-nginx: https://kubernetes.github.io/ingress-nginx
+    hwameistor: http://hwameistor.io/helm-charts
+    cert-manager: https://charts.jetstack.io
+    metrics-server: https://kubernetes-sigs.github.io/metrics-server
+  daocloud-system:
+    tigera-operator: https://projectcalico.docs.tigera.io/charts
+  partner:
+    tidb-operator: https://charts.pingcap.org
+    tidb-cluster: https://charts.pingcap.org
+  community: 
+    dao-2048: http://daocloud.github.io/dao-2048
+    nginx: https://charts.bitnami.com/bitnami
+    redis: https://charts.bitnami.com/bitnami
+    postgresql: https://charts.bitnami.com/bitnami
+    mysql: https://charts.bitnami.com/bitnami
