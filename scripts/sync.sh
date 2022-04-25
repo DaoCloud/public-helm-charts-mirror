@@ -8,7 +8,7 @@ then
 fi
 
 # Generate chart-sync config file
-mkdir -p configs
+mkdir -p config
 python3 scripts/generate-sync-config.py
 
 # Use chart-sync to Sync
@@ -21,5 +21,5 @@ do
 done
 
 # Clean Up
-rm -rf configs
+rm -rf config
 
