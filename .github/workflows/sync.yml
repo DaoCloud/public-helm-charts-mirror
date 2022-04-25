@@ -29,4 +29,4 @@ jobs:
           TARGET_REPO_AUTH_USERNAME: ${{ secrets.TARGET_REPO_AUTH_USERNAME }}
           TARGET_REPO_AUTH_PASSWORD: ${{ secrets.TARGET_REPO_AUTH_PASSWORD }}
         run: |
-          bash ./script/sync.sh
+          bash ./scripts/sync.sh
