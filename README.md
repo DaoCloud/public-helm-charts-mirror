@@ -18,5 +18,5 @@ helm install dao-2048 community/dao-2048
 
 # Add New Repo/Charts
 
-Create New PR , like todo
+Create New PR , like https://github.com/DaoCloud/public-helm-charts-mirror/pull/2
 
