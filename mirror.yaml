@@ -1,6 +1,6 @@
 mirrors:
   daocloud: # The Repo mirror to
-    ingress-nginx: https://kubernetes.github.io/ingress-nginx
+    ingress-nginx: https://kubernetes.github.io/ingress-nginx # chart name: repo url
     hwameistor: http://hwameistor.io/helm-charts
     cert-manager: https://charts.jetstack.io
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
@@ -10,9 +10,10 @@ mirrors:
     tidb-operator: https://charts.pingcap.org
     tidb-cluster: https://charts.pingcap.org
   community: 
-    dao-2048: http://daocloud.github.io/dao-2048
-      -  containerRepository: ghcr.m.daocloud.io/daocloud
     nginx: https://charts.bitnami.com/bitnami
     redis: https://charts.bitnami.com/bitnami
     postgresql: https://charts.bitnami.com/bitnami
     mysql: https://charts.bitnami.com/bitnami
+    dao-2048: # change the value.yaml
+      repo: http://daocloud.github.io/dao-2048 # helm repo url
+      containerRepository: ghcr.m.daocloud.io/daocloud # change image, ref to https://github.com/bitnami-labs/charts-syncer
