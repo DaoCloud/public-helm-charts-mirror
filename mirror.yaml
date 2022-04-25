@@ -14,6 +14,11 @@ mirrors:
     redis: https://charts.bitnami.com/bitnami
     postgresql: https://charts.bitnami.com/bitnami
     mysql: https://charts.bitnami.com/bitnami
+    elasticsearch: https://charts.bitnami.com/bitnami
+    istio-base: https://istio-release.storage.googleapis.com/charts
+    istiod: https://istio-release.storage.googleapis.com/charts
+    # gateway: https://istio-release.storage.googleapis.com/charts
+    # operator: https://operator.min.io/
     dao-2048: # change the value.yaml
       repo: http://daocloud.github.io/dao-2048 # helm repo url
       containerRepository: ghcr.m.daocloud.io/daocloud # change image, ref to https://github.com/bitnami-labs/charts-syncer
