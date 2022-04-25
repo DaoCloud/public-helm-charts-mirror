@@ -23,7 +23,7 @@ jobs:
         run: |
           curl -O https://github.com/yankay/charts-syncer/releases/download/v0.15.0-patched/charts-syncer
           chmod +x charts-syncer
-          mv charts-syncer /usr/bin
+          sudo mv charts-syncer /usr/bin
       - name: Sync
         env:
           TARGET_REPO_AUTH_USERNAME: ${{ secrets.TARGET_REPO_AUTH_USERNAME }}
