@@ -4,6 +4,7 @@ mirrors:
     hwameistor: http://hwameistor.io/helm-charts
     cert-manager: https://charts.jetstack.io
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
+    metallb: https://metallb.github.io/metallb
   daocloud-system:
     tigera-operator: https://projectcalico.docs.tigera.io/charts
   partner:
