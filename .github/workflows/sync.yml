@@ -28,5 +28,13 @@ jobs:
         env:
           TARGET_REPO_AUTH_USERNAME: ${{ secrets.TARGET_REPO_AUTH_USERNAME }}
           TARGET_REPO_AUTH_PASSWORD: ${{ secrets.TARGET_REPO_AUTH_PASSWORD }}
+          badge: 'true'
         run: |
           bash ./scripts/sync.sh
+      - name: Update badge
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BADGE_PREFIX: "git://${{ github.repository }}/gh-pages"
+        run: |
+          wget https://github.com/wzshiming/putingh/releases/download/v0.6.3/putingh_linux_amd64 -O /usr/local/bin/putingh && chmod +x /usr/local/bin/putingh
+          GH_TOKEN="${GH_TOKEN}" putingh "${BADGE_PREFIX}/daocloud-sync-badge.svg" badge.svg

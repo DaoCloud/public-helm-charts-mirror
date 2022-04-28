@@ -1,5 +1,7 @@
 # public-helm-charts-mirror
 
+![Sync](https://github.com/DaoCloud/public-helm-charts-mirror/raw/gh-pages/daocloud-sync-badge.svg)
+
 This repository contains Helm charts served by DaoCloud
 
 | Helm RepoName      | Helm Repo URL |
