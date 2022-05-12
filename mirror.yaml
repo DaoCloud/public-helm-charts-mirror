@@ -18,6 +18,7 @@ mirrors:
     elasticsearch: https://charts.bitnami.com/bitnami
     istio-base: https://istio-release.storage.googleapis.com/charts
     istiod: https://istio-release.storage.googleapis.com/charts
+    nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin 
     # gateway: https://istio-release.storage.googleapis.com/charts
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
