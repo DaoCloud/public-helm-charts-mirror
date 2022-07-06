@@ -21,7 +21,8 @@ jobs:
           pip3 install pyyaml
       - name: Install charts-syncer
         run: |
-          curl -LJO https://github.com/yankay/charts-syncer/releases/download/v0.15.0-patched/charts-syncer
+          curl -LJO https://github.com/bitnami-labs/charts-syncer/releases/download/v0.17.0/charts-syncer_0.17.0_linux_x86_64.tar.gz
+          tar -zxvf charts-syncer_0.17.0_linux_x86_64.tar.gz
           chmod +x charts-syncer
           sudo mv charts-syncer /usr/bin
       - name: Sync
