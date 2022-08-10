@@ -1,5 +1,5 @@
 mirrorRepos:
-  daocloud: https://release.daocloud.io/chartrepo/daocloud
-  daocloud-system: https://release.daocloud.io/chartrepo/daocloud-system
+  addon: https://release.daocloud.io/chartrepo/addon
+  system: https://release.daocloud.io/chartrepo/system
   partner: https://release.daocloud.io/chartrepo/partner
   community: https://release.daocloud.io/chartrepo/community

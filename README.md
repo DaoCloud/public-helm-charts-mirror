@@ -6,8 +6,8 @@ This repository contains Helm charts served by DaoCloud
 
 | Helm RepoName      | Helm Repo URL |
 | ----------- | ----------- |
-| DaoCloud      | https://release.daocloud.io/chartrepo/daocloud       |
-| DaoCloud-System   | https://release.daocloud.io/chartrepo/daocloud-system        |
+| Addon      | https://release.daocloud.io/chartrepo/addon       |
+| System   | https://release.daocloud.io/chartrepo/system        |
 | Partner  | https://release.daocloud.io/chartrepo/partner        |
 | Community  | https://release.daocloud.io/chartrepo/community      |
 
