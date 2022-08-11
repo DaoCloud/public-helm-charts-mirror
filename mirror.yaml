@@ -25,6 +25,7 @@ mirrors:
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
     wordpress: https://charts.bitnami.com/bitnami
+    kube-node-tuning: https://kubean-io.github.io/kube-node-tuning
     dao-2048: # change the value.yaml
       repo: http://daocloud.github.io/dao-2048 # helm repo url
       containerRepository: ghcr.m.daocloud.io/daocloud # change image, ref to https://github.com/bitnami-labs/charts-syncer
