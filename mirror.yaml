@@ -1,11 +1,10 @@
 mirrors:
-  daocloud: # The Repo mirror to
+  addon: # The Repo mirror to
     cert-manager: https://charts.jetstack.io # chart name: repo url
     contour: https://charts.bitnami.com/bitnami
     submariner: https://submariner-io.github.io/submariner-charts/charts
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
-    insight-agent: https://release.daocloud.io/chartrepo/insight
-  daocloud-system:
+  system:
     hwameistor: http://hwameistor.io/helm-charts
     metallb: https://metallb.github.io/metallb
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
@@ -29,3 +28,7 @@ mirrors:
     dao-2048: # change the value.yaml
       repo: http://daocloud.github.io/dao-2048 # helm repo url
       containerRepository: ghcr.m.daocloud.io/daocloud # change image, ref to https://github.com/bitnami-labs/charts-syncer
+    # base: https://istio-release.storage.googleapis.com/charts
+    # cni: https://istio-release.storage.googleapis.com/charts
+    # gateway: https://istio-release.storage.googleapis.com/charts
+    # istiod: https://istio-release.storage.googleapis.com/charts
