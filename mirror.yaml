@@ -18,6 +18,7 @@ mirrors:
     redis: https://charts.bitnami.com/bitnami
     postgresql: https://charts.bitnami.com/bitnami
     mysql: https://charts.bitnami.com/bitnami
+    harbor: https://helm.goharbor.io
     elasticsearch: https://charts.bitnami.com/bitnami
     istio-base: https://istio-release.storage.googleapis.com/charts
     istiod: https://istio-release.storage.googleapis.com/charts
