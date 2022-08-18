@@ -22,3 +22,9 @@ helm install dao-2048 community/dao-2048
 
 Create New PR , like https://github.com/DaoCloud/public-helm-charts-mirror/pull/2
 
+
+## 推荐：加速三剑客
+
+* 镜像加速：https://github.com/DaoCloud/public-image-mirro
+* 二进制文件加速：https://github.com/DaoCloud/public-binary-files-mirror
+* Helm 加速：https://github.com/DaoCloud/public-helm-charts-mirror
