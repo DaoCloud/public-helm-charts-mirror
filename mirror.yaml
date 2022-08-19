@@ -26,6 +26,7 @@ mirrors:
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://promethhttps://charts.deliveryhero.io/eus-community.github.io/helm-charts
     kube-bench: https://charts.deliveryhero.io/
+    kuberhealthy: https://kuberhealthy.github.io/kuberhealthy/helm-repos
     wordpress: https://charts.bitnami.com/bitnami
     kube-node-tuning: https://kubean-io.github.io/kube-node-tuning
     node-problem-detector: https://charts.deliveryhero.io
