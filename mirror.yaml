@@ -39,3 +39,4 @@ mirrors:
     # gateway: https://istio-release.storage.googleapis.com/charts
     # istiod: https://istio-release.storage.googleapis.com/charts
     kubevela: https://charts.kubevela.net/core
+    dragonfly: https://dragonflyoss.github.io/helm-charts/
