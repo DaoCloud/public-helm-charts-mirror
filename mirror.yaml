@@ -40,3 +40,4 @@ mirrors:
     # istiod: https://istio-release.storage.googleapis.com/charts
     kubevela: https://charts.kubevela.net/core
     dragonfly: https://dragonflyoss.github.io/helm-charts/
+    argo: https://argoproj.github.io/argo-helm
