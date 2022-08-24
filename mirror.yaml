@@ -41,3 +41,4 @@ mirrors:
     vela-core: https://charts.kubevela.net/core
     argo-cd: https://argoproj.github.io/argo-helm
     argo-rollouts: https://argoproj.github.io/argo-helm
+    dragonfly: https://dragonflyoss.github.io/helm-charts/
