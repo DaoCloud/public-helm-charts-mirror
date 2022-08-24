@@ -38,5 +38,6 @@ mirrors:
     # cni: https://istio-release.storage.googleapis.com/charts
     # gateway: https://istio-release.storage.googleapis.com/charts
     # istiod: https://istio-release.storage.googleapis.com/charts
-    kubevela: https://charts.kubevela.net/core
-    argo: https://argoproj.github.io/argo-helm
+    vela-core: https://charts.kubevela.net/core
+    argo-cd: https://argoproj.github.io/argo-helm
+    argo-rollouts: https://argoproj.github.io/argo-helm
