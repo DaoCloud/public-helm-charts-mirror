@@ -43,3 +43,4 @@ mirrors:
     argo-rollouts: https://argoproj.github.io/argo-helm
     dragonfly: https://dragonflyoss.github.io/helm-charts/
     ceph-csi: https://ceph.github.io/csi-charts
+    gitlab: http://charts.gitlab.io/
