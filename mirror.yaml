@@ -34,6 +34,7 @@ mirrors:
     dao-2048: # change the value.yaml
       repo: http://daocloud.github.io/dao-2048 # helm repo url
       containerRegistry: ghcr.m.daocloud.io # change image, ref to https://github.com/bitnami-labs/charts-syncer
+      containerRepository: daocloud/dao-2048
     # base: https://istio-release.storage.googleapis.com/charts
     # cni: https://istio-release.storage.googleapis.com/charts
     # gateway: https://istio-release.storage.googleapis.com/charts
