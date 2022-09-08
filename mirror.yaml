@@ -6,9 +6,7 @@ mirrors:
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
   system:
     hwameistor: http://hwameistor.io/hwameistor
-    metallb: https://metallb.github.io/metallb
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
-    ingress-nginx: https://kubernetes.github.io/ingress-nginx
   partner:
     tigera-operator: https://projectcalico.docs.tigera.io/charts
     tidb-operator: https://charts.pingcap.org
