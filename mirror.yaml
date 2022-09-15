@@ -6,9 +6,7 @@ mirrors:
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
   system:
     hwameistor: http://hwameistor.io/hwameistor
-    metallb: https://metallb.github.io/metallb
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
-    ingress-nginx: https://kubernetes.github.io/ingress-nginx
   partner:
     tigera-operator: https://projectcalico.docs.tigera.io/charts
     tidb-operator: https://charts.pingcap.org
@@ -20,9 +18,9 @@ mirrors:
     mysql: https://charts.bitnami.com/bitnami
     harbor: https://helm.goharbor.io
     elasticsearch: https://charts.bitnami.com/bitnami
-    istio-base: https://istio-release.storage.googleapis.com/charts
+    base: https://istio-release.storage.googleapis.com/charts
     istiod: https://istio-release.storage.googleapis.com/charts
-    # gateway: https://istio-release.storage.googleapis.com/charts
+    gateway: https://istio-release.storage.googleapis.com/charts
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
     kube-bench: https://charts.deliveryhero.io/
@@ -33,7 +31,8 @@ mirrors:
     kubeview: https://raw.githubusercontent.com/benc-uk/kubeview/master/charts
     dao-2048: # change the value.yaml
       repo: http://daocloud.github.io/dao-2048 # helm repo url
-      containerRepository: ghcr.m.daocloud.io/daocloud # change image, ref to https://github.com/bitnami-labs/charts-syncer
+      containerRegistry: ghcr.m.daocloud.io # change image, ref to https://github.com/bitnami-labs/charts-syncer
+      containerRepository: daocloud
     # base: https://istio-release.storage.googleapis.com/charts
     # cni: https://istio-release.storage.googleapis.com/charts
     # gateway: https://istio-release.storage.googleapis.com/charts
@@ -44,3 +43,4 @@ mirrors:
     dragonfly: https://dragonflyoss.github.io/helm-charts/
     ceph-csi: https://ceph.github.io/csi-charts
     gitlab: http://charts.gitlab.io/
+    open-telemetry-projdistr: https://openinsight-proj.github.io/opentelemetry-demo-helm-chart
