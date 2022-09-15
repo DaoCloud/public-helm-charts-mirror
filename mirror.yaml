@@ -18,9 +18,9 @@ mirrors:
     mysql: https://charts.bitnami.com/bitnami
     harbor: https://helm.goharbor.io
     elasticsearch: https://charts.bitnami.com/bitnami
-    istio-base: https://istio-release.storage.googleapis.com/charts
+    base: https://istio-release.storage.googleapis.com/charts
     istiod: https://istio-release.storage.googleapis.com/charts
-    # gateway: https://istio-release.storage.googleapis.com/charts
+    gateway: https://istio-release.storage.googleapis.com/charts
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
     kube-bench: https://charts.deliveryhero.io/
