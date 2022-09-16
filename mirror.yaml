@@ -5,7 +5,7 @@ mirrors:
     submariner: https://submariner-io.github.io/submariner-charts/charts
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
   system:
-    hwameistor: http://hwameistor.io/hwameistor
+    hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
   partner:
     tigera-operator: https://projectcalico.docs.tigera.io/charts
@@ -18,9 +18,6 @@ mirrors:
     mysql: https://charts.bitnami.com/bitnami
     harbor: https://helm.goharbor.io
     elasticsearch: https://charts.bitnami.com/bitnami
-    base: https://istio-release.storage.googleapis.com/charts
-    istiod: https://istio-release.storage.googleapis.com/charts
-    gateway: https://istio-release.storage.googleapis.com/charts
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
     kube-bench: https://charts.deliveryhero.io/
@@ -44,3 +41,16 @@ mirrors:
     ceph-csi: https://ceph.github.io/csi-charts
     gitlab: http://charts.gitlab.io/
     open-telemetry-projdistr: https://openinsight-proj.github.io/opentelemetry-demo-helm-chart
+    # Use by the DCE5 Installer, Do not Change
+    metallb: https://metallb.github.io/metallb
+    base: https://istio-release.storage.googleapis.com/charts
+    istiod: https://istio-release.storage.googleapis.com/charts
+    gateway: https://istio-release.storage.googleapis.com/charts
+    kubean: https://kubean-io.github.io/kubean-helm-chart/
+    docker-registry: https://helm.twun.io
+    minio: https://charts.min.io
+    redis-operator: https://spotahome.github.io/redis-operator
+    mysql-operator: https://helm-charts.bitpoke.io
+    metallb: https://metallb.github.io/metallb
+    harbo: https://helm.goharbor.io
+    
