@@ -43,9 +43,6 @@ mirrors:
     open-telemetry-projdistr: https://openinsight-proj.github.io/opentelemetry-demo-helm-chart
     # Use by the DCE5 Installer, Do not Change
     metallb: https://metallb.github.io/metallb
-    base: https://istio-release.storage.googleapis.com/charts
-    istiod: https://istio-release.storage.googleapis.com/charts
-    gateway: https://istio-release.storage.googleapis.com/charts
     kubean: https://kubean-io.github.io/kubean-helm-chart/
     docker-registry: https://helm.twun.io
     minio: https://charts.min.io
