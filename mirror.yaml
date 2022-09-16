@@ -52,5 +52,4 @@ mirrors:
     redis-operator: https://spotahome.github.io/redis-operator
     mysql-operator: https://helm-charts.bitpoke.io
     metallb: https://metallb.github.io/metallb
-    harbo: https://helm.goharbor.io
-    
+    harbor: https://helm.goharbor.io
