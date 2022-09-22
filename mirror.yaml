@@ -50,3 +50,4 @@ mirrors:
     mysql-operator: https://helm-charts.bitpoke.io
     metallb: https://metallb.github.io/metallb
     harbor: https://helm.goharbor.io
+    twuni: https://helm.twun.io
