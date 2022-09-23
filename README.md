@@ -22,6 +22,10 @@ helm install dao-2048 community/dao-2048
 
 Create New PR , like https://github.com/DaoCloud/public-helm-charts-mirror/pull/2
 
+Example:
+
+  If your helm chart repo URL `is https://release.daocloud.io/chartrepo/community/dao-2048`
+  you can add one line to mirror.yaml : `dao-2048: https://release.daocloud.io/chartrepo/community`
 
 ## [友情链接]加速三剑客
 
