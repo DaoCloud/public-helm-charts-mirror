@@ -4,10 +4,10 @@ mirrors:
     contour: https://charts.bitnami.com/bitnami
     submariner: https://submariner-io.github.io/submariner-charts/charts
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
-  system:
     hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     drbd-adapter: http://hwameistor.io/hwameistor
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
+  system:
   partner:
     tigera-operator: https://projectcalico.docs.tigera.io/charts
     tidb-operator: https://charts.pingcap.org
