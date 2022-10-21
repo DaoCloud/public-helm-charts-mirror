@@ -4,6 +4,8 @@ mirrors:
     contour: https://charts.bitnami.com/bitnami
     submariner: https://submariner-io.github.io/submariner-charts/charts
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
+    argo-cd: https://argoproj.github.io/argo-helm
+    argo-rollouts: https://argoproj.github.io/argo-helm
   system:
     hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     drbd-adapter: http://hwameistor.io/hwameistor
@@ -36,8 +38,6 @@ mirrors:
     # gateway: https://istio-release.storage.googleapis.com/charts
     # istiod: https://istio-release.storage.googleapis.com/charts
     vela-core: https://charts.kubevela.net/core
-    argo-cd: https://argoproj.github.io/argo-helm
-    argo-rollouts: https://argoproj.github.io/argo-helm
     dragonfly: https://dragonflyoss.github.io/helm-charts/
     ceph-csi: https://ceph.github.io/csi-charts
 #     gitlab: http://charts.gitlab.io/
