@@ -7,17 +7,15 @@ mirrors:
     hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     drbd-adapter: http://hwameistor.io/hwameistor
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
-  system:
   partner:
     tigera-operator: https://projectcalico.docs.tigera.io/charts
     tidb-operator: https://charts.pingcap.org
     tidb-cluster: https://charts.pingcap.org
-  community: 
+  community:
     nginx: https://charts.bitnami.com/bitnami
     redis: https://charts.bitnami.com/bitnami
     postgresql: https://charts.bitnami.com/bitnami
     mysql: https://charts.bitnami.com/bitnami
-    harbor: https://helm.goharbor.io
     elasticsearch: https://charts.bitnami.com/bitnami
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
@@ -40,12 +38,10 @@ mirrors:
     argo-rollouts: https://argoproj.github.io/argo-helm
     dragonfly: https://dragonflyoss.github.io/helm-charts/
     ceph-csi: https://ceph.github.io/csi-charts
-#     gitlab: http://charts.gitlab.io/
+    # gitlab: http://charts.gitlab.io/
     open-telemetry-projdistr: https://openinsight-proj.github.io/opentelemetry-demo-helm-chart
     # Use by the DCE5 Installer, Do not Change
-    metallb: https://metallb.github.io/metallb
     kubean: https://kubean-io.github.io/kubean-helm-chart/
-    docker-registry: https://helm.twun.io
     minio: https://charts.min.io
     redis-operator: https://spotahome.github.io/redis-operator
     mysql-operator: https://helm-charts.bitpoke.io
@@ -54,3 +50,4 @@ mirrors:
     docker-registry: https://helm.twun.io
     nfs-subdir-external-provisioner: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
     opentelemetry-demo: https://openinsight-proj.github.io/openinsight-helm-charts
+  system: []
