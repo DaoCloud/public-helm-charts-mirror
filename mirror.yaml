@@ -19,6 +19,7 @@ mirrors:
     elasticsearch: https://charts.bitnami.com/bitnami
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
+    prometheus-adapter: https://prometheus-community.github.io/helm-charts
     kube-bench: https://charts.deliveryhero.io/
     kuberhealthy: https://kuberhealthy.github.io/kuberhealthy/helm-repos
     wordpress: https://charts.bitnami.com/bitnami
