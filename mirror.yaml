@@ -11,16 +11,15 @@ mirrors:
     emqx: https://repos.emqx.io/charts
     emqx-ee: https://repos.emqx.io/charts
     emqx-operator: https://repos.emqx.io/charts
+    function-mesh-operator: http://charts.functionmesh.io/
+    pulsar-operator: https://charts.streamnative.io
     qiming-operator: https://jibutech.github.io/helm-charts
+    sn-platform: https://charts.streamnative.io
     tigera-operator: https://projectcalico.docs.tigera.io/charts
     tidb-operator: https://charts.pingcap.org
     tidb-drainer: https://charts.pingcap.org
     tidb-lightning: https://charts.pingcap.org
-    pulsar-operator: https://charts.streamnative.io
-    sn-platform: https://charts.streamnative.io
     vault-operator: https://kubernetes-charts.banzaicloud.com
-    cert-manager: https://charts.jetstack.io
-    function-mesh-operator: http://charts.functionmesh.io/
   community: 
     nginx: https://charts.bitnami.com/bitnami
     redis: https://charts.bitnami.com/bitnami
