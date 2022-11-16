@@ -4,7 +4,6 @@ mirrors:
     contour: https://charts.bitnami.com/bitnami
     submariner: https://submariner-io.github.io/submariner-charts/charts
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
-  system:
     hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     drbd-adapter: http://hwameistor.io/hwameistor
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
@@ -27,10 +26,10 @@ mirrors:
     redis: https://charts.bitnami.com/bitnami
     postgresql: https://charts.bitnami.com/bitnami
     mysql: https://charts.bitnami.com/bitnami
-    harbor: https://helm.goharbor.io
     elasticsearch: https://charts.bitnami.com/bitnami
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
+    prometheus-adapter: https://prometheus-community.github.io/helm-charts
     kube-bench: https://charts.deliveryhero.io/
     kuberhealthy: https://kuberhealthy.github.io/kuberhealthy/helm-repos
     wordpress: https://charts.bitnami.com/bitnami
@@ -50,12 +49,10 @@ mirrors:
     argo-rollouts: https://argoproj.github.io/argo-helm
     dragonfly: https://dragonflyoss.github.io/helm-charts/
     ceph-csi: https://ceph.github.io/csi-charts
-#     gitlab: http://charts.gitlab.io/
+    # gitlab: http://charts.gitlab.io/
     open-telemetry-projdistr: https://openinsight-proj.github.io/opentelemetry-demo-helm-chart
     # Use by the DCE5 Installer, Do not Change
-    metallb: https://metallb.github.io/metallb
     kubean: https://kubean-io.github.io/kubean-helm-chart/
-    docker-registry: https://helm.twun.io
     minio: https://charts.min.io
     redis-operator: https://spotahome.github.io/redis-operator
     mysql-operator: https://helm-charts.bitpoke.io
@@ -63,3 +60,5 @@ mirrors:
     harbor: https://helm.goharbor.io
     docker-registry: https://helm.twun.io
     nfs-subdir-external-provisioner: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
+    opentelemetry-demo: https://openinsight-proj.github.io/openinsight-helm-charts
+  system: []
