@@ -24,6 +24,8 @@ mirrors:
     nginx: https://charts.bitnami.com/bitnami
     redis: https://charts.bitnami.com/bitnami
     postgresql: https://charts.bitnami.com/bitnami
+    postgres-operator: https://opensource.zalando.com/postgres-operator/charts
+    postgres-operator-ui: https://opensource.zalando.com/postgres-operator/charts
     mysql: https://charts.bitnami.com/bitnami
     elasticsearch: https://charts.bitnami.com/bitnami
     # operator: https://operator.min.io/
