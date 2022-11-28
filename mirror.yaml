@@ -7,19 +7,7 @@ mirrors:
     hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     drbd-adapter: http://hwameistor.io/hwameistor
     metrics-server: https://kubernetes-sigs.github.io/metrics-server
-  partner:
-    emqx: https://repos.emqx.io/charts
-    emqx-ee: https://repos.emqx.io/charts
-    emqx-operator: https://repos.emqx.io/charts
-    function-mesh-operator: http://charts.functionmesh.io/
-    pulsar-operator: https://charts.streamnative.io
-    qiming-operator: https://jibutech.github.io/helm-charts
-    sn-platform: https://charts.streamnative.io
-    tigera-operator: https://projectcalico.docs.tigera.io/charts
-    tidb-operator: https://charts.pingcap.org
-    tidb-drainer: https://charts.pingcap.org
-    tidb-lightning: https://charts.pingcap.org
-    vault-operator: https://kubernetes-charts.banzaicloud.com
+  partner: []
   community: 
     nginx: https://charts.bitnami.com/bitnami
     redis: https://charts.bitnami.com/bitnami
