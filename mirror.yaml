@@ -8,12 +8,9 @@ mirrors:
   partner: []
   community: 
     nginx: https://charts.bitnami.com/bitnami
-    redis: https://charts.bitnami.com/bitnami
     postgresql: https://charts.bitnami.com/bitnami
     postgres-operator: https://opensource.zalando.com/postgres-operator/charts/postgres-operator
     postgres-operator-ui: https://opensource.zalando.com/postgres-operator/charts/postgres-operator-ui
-    mysql: https://charts.bitnami.com/bitnami
-    elasticsearch: https://charts.bitnami.com/bitnami
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
     prometheus-adapter: https://prometheus-community.github.io/helm-charts
@@ -40,9 +37,6 @@ mirrors:
     open-telemetry-projdistr: https://openinsight-proj.github.io/opentelemetry-demo-helm-chart
     # Use by the DCE5 Installer, Do not Change
     kubean: https://kubean-io.github.io/kubean-helm-chart/
-    minio: https://charts.min.io
-    redis-operator: https://spotahome.github.io/redis-operator
-    mysql-operator: https://helm-charts.bitpoke.io
     metallb: https://metallb.github.io/metallb
     harbor: https://helm.goharbor.io
     docker-registry: https://helm.twun.io
