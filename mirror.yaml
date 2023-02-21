@@ -36,8 +36,10 @@ mirrors:
     # gitlab: http://charts.gitlab.io/
     open-telemetry-projdistr: https://openinsight-proj.github.io/opentelemetry-demo-helm-chart
     # Use by the DCE5 Installer, Do not Change
+    chartmuseum: https://chartmuseum.github.io/charts
     kubean: https://kubean-io.github.io/kubean-helm-chart/
     metallb: https://metallb.github.io/metallb
+    minio: https://charts.min.io/
     harbor: https://helm.goharbor.io
     docker-registry: https://helm.twun.io
     nfs-subdir-external-provisioner: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
