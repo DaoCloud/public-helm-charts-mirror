@@ -4,7 +4,6 @@ mirrors:
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
     hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     drbd-adapter: http://hwameistor.io/hwameistor
-    metrics-server: https://kubernetes-sigs.github.io/metrics-server
   partner: []
   community: 
     nginx: https://charts.bitnami.com/bitnami
