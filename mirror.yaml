@@ -1,6 +1,5 @@
 mirrors:
   addon: # The Repo mirror to
-    submariner: https://submariner-io.github.io/submariner-charts/charts
     nvidia-device-plugin: https://nvidia.github.io/k8s-device-plugin
     hwameistor: http://hwameistor.io/hwameistor # Use by the DCE5 Installer, Do not Change
     drbd-adapter: http://hwameistor.io/hwameistor
@@ -37,7 +36,6 @@ mirrors:
     # Use by the DCE5 Installer, Do not Change
     chartmuseum: https://chartmuseum.github.io/charts
     kubean: https://kubean-io.github.io/kubean-helm-chart/
-    metallb: https://metallb.github.io/metallb
     minio: https://charts.min.io/
     harbor: https://helm.goharbor.io
     docker-registry: https://helm.twun.io
