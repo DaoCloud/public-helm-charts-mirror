@@ -43,4 +43,5 @@ mirrors:
     nfs-subdir-external-provisioner: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
     opentelemetry-demo: https://openinsight-proj.github.io/openinsight-helm-charts
     tomcat: https://charts.bitnami.com/bitnami
+    kueue: https://kubernetes-sigs.github.io/kueue
   system: []
