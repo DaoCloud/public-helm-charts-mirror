@@ -12,13 +12,13 @@ mirrors:
     postgres-operator-ui: https://opensource.zalando.com/postgres-operator/charts/postgres-operator-ui
     # operator: https://operator.min.io/
     kube-prometheus-stack: https://prometheus-community.github.io/helm-charts
-    prometheus-adapter: https://prometheus-community.github.io/helm-charts
-    kube-bench: https://charts.deliveryhero.io/
-    kuberhealthy: https://kuberhealthy.github.io/kuberhealthy/helm-repos
-    wordpress: https://charts.bitnami.com/bitnami
+    # prometheus-adapter: https://prometheus-community.github.io/helm-charts
+    # kube-bench: https://charts.deliveryhero.io/
+    # kuberhealthy: https://kuberhealthy.github.io/kuberhealthy/helm-repos
+    # wordpress: https://charts.bitnami.com/bitnami
     kube-node-tuning: https://kubean-io.github.io/kube-node-tuning
-    node-problem-detector: https://charts.deliveryhero.io
-    kubeview: https://raw.githubusercontent.com/benc-uk/kubeview/master/charts
+    # node-problem-detector: https://charts.deliveryhero.io
+    # kubeview: https://raw.githubusercontent.com/benc-uk/kubeview/master/charts
     dao-2048: # change the value.yaml
       repo: http://daocloud.github.io/dao-2048 # helm repo url
       containerRegistry: ghcr.m.daocloud.io # change image, ref to https://github.com/bitnami-labs/charts-syncer
@@ -27,8 +27,8 @@ mirrors:
     # cni: https://istio-release.storage.googleapis.com/charts
     # gateway: https://istio-release.storage.googleapis.com/charts
     # istiod: https://istio-release.storage.googleapis.com/charts
-    vela-core: https://charts.kubevela.net/core
-    argo-cd: https://argoproj.github.io/argo-helm
+    # vela-core: https://charts.kubevela.net/core
+    # argo-cd: https://argoproj.github.io/argo-helm
     argo-rollouts: https://argoproj.github.io/argo-helm
     dragonfly: https://dragonflyoss.github.io/helm-charts/
     ceph-csi: https://ceph.github.io/csi-charts
@@ -39,7 +39,7 @@ mirrors:
     kubean: https://kubean-io.github.io/kubean-helm-chart/
     minio: https://charts.min.io/
     harbor: https://helm.goharbor.io
-    docker-registry: https://helm.twun.io
+    # docker-registry: https://helm.twun.io
     nfs-subdir-external-provisioner: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
     opentelemetry-demo: https://openinsight-proj.github.io/openinsight-helm-charts
     tomcat: https://charts.bitnami.com/bitnami
