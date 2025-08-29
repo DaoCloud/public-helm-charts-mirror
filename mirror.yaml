@@ -44,4 +44,5 @@ mirrors:
     opentelemetry-demo: https://openinsight-proj.github.io/openinsight-helm-charts
     tomcat: https://charts.bitnami.com/bitnami
     kueue: https://kubernetes-sigs.github.io/kueue
+    redis: https://charts.bitnami.com/bitnami
   system: []
