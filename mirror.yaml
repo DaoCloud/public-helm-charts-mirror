@@ -45,7 +45,7 @@ mirrors:
     tomcat: https://charts.bitnami.com/bitnami
     kueue: https://kubernetes-sigs.github.io/kueue
     # community-n8n
-    community-n8n:
+    n8n:
       repo: https://community-charts.github.io/helm-charts
       containerRegistry: docker.m.daocloud.io   # docker.io/n8nio/n8n
       containerRepository: community-charts/n8n
